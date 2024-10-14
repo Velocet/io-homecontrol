@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Arduino Lint
-        uses: arduino/arduino-lint-action@v1
+        uses: arduino/arduino-lint-action@v2
         with:
           # Configure how strict the tool is about which checks are considered errors vs warnings if they don't pass.
           # strict - enforces best practices, above and beyond the minimum requirements for specification compliance. Use this setting to ensure the best experience for the users of the project.
